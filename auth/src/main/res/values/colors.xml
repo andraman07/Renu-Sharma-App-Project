@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sign_in_btn_color_open_app">#0668AC</color>
+    <color name="light_grey">#706363</color>
+    <color name="light_blue_color">#5F93FB</color>
+    <color name="select_internship_item_stroke">#29000000</color>
+</resources>
