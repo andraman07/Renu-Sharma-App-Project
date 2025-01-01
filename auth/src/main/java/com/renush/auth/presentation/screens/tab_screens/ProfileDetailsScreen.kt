@@ -96,10 +96,10 @@ fun ProfileDetailsScreen(tabState: PagerState) {
                 completionYear = it
             }
             Spacer(Modifier.height(20.dp))
-            AppDropDownMenu(
+            BlackTextInputField(
+                modifier = Modifier,
                 "College/University",
-                listOf("DELHI", "MUMBAI", "CHENNAI"),
-                clgUniversity
+                "College/University"
             ) {
                 clgUniversity = it
             }

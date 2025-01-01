@@ -187,8 +187,8 @@ fun ToggleBlackTextInputField(
 //                    Log.d("CHECK", isPasswordToggle.toString())
                 }) {
                     Icon(
-                        painter = if (isPasswordToggle) painterResource(R.drawable.pass_toggle_on) else painterResource(
-                            R.drawable.pass_toggle_off
+                        painter = if (isPasswordToggle) painterResource(R.drawable.pass_toggle_off) else painterResource(
+                            R.drawable.pass_toggle_on
                         ),
                         contentDescription = if (isPasswordToggle) "Hide Password" else "Show Password",
                         tint = Color.Gray
